@@ -1,0 +1,38 @@
+Error -> Developer makes a mistake that is called an error
+Defect -> If Tester Find any mistake then it's called a defect
+Bug -> if development team will accept the defect then it's called a bug
+
+QA -> Quality Analyst
+QC -> Quality Control
+Tester -> Testing
+
+
+Testing:
+Testing is a process used to identify correctness,completeness and quality
+of developed computer software.
+
+SDLC -> Software Development Lifecycle
+1)Requirement Gathering 
+      a)functional requirement
+      b)non functional requirement
+2)Analysis
+3)Design
+4)Implementation
+5)Testing
+6)Maintenance
+  a)corrective 
+  b)adaptive
+  c)perfective
+
+UML -> Unified Modeling Language
+
+Offline Editor -> Rfflow
+Online Editor -> https://app.diagrams.net/
+
+
+
+
+STLC -> Software Testing Lifecycle
+
+
+
