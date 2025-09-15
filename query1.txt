@@ -66,3 +66,56 @@ select * from tablenm where id='id'
 
 18.order by
 select colnm from tblnm order by colnm asc/desc
+
+Constraint Keys:
+1)primary key -> avoid data duplication
+2)foreign key -> provide refrence[JOIN]
+3)unique key -> uniquely identify data
+
+
+JOINS:
+1) INNER JOIN
+2) LEFT JOIN
+3) RIGHT JOIN
+4) FULL JOIN
+
+SELECT * FROM location LEFT JOIN products ON location.lid = products.id
+UNION
+SELECT * FROM location RIGHT JOIN products ON location.lid = products.id
+
+Extra:
+
+1) USE DATABASE database_name;
+
+2) SELECT DISTINCT column1, column2....columnN FROM
+table_name;
+
+3)SELECT column1, column2....columnN FROM table_name WHERE
+CONDITION-1 {AND|OR} CONDITION-2;
+
+4)SELECT column1, column2....columnN FROM table_name WHERE
+column_name IN (val-1, val-2,...val-N);
+
+5)SELECT column1, column2....columnN FROM table_name WHERE
+column_name BETWEEN val-1 AND val-2;
+
+6)SELECT column1, column2....columnN FROM table_name WHERE
+column_name LIKE { PATTERN };
+
+7)SQL GROUP BY CLAUSE
+SELECT SUM(column_name) FROMtable_name WHERE CONDITION
+GROUP BY column_name;
+
+8)SELECT COUNT(column_name)FROM table_name WHERE CONDITION;
+
+9)SELECT SUM(column_name) FROMtable_name WHERE CONDITION
+GROUP BY column_name HAVING (arithematicfunction condition);
+
+10)CREATE UNIQUE INDEX index_name ON table_name( column1,
+column2,...columnN);
+
+
+
+
+
+
