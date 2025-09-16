@@ -1,0 +1,33 @@
+Db - Tops
+Table - students
+Columns - 
+
+id
+student_name - varchar
+student_std - int
+student_fees - int
+student_grade - varchar
+
+
+1)create db with the name of tops
+-> 
+2)create table with the name of students and predefined column is
+id and student_name
+->
+3)After creation of table add one more column student_fees
+->
+4)After creation of table and student_fees add one more column student_grdae
+->
+5)change datatype of student grade
+->
+6)remove column student_grade
+->
+7)Insert data in all columns
+8)update data in any one column
+9)delete data from any column
+10)select data according to grades
+11)select data according to column wise
+
+
+
+ 
